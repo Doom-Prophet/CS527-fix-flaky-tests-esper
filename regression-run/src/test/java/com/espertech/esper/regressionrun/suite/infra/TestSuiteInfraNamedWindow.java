@@ -44,55 +44,55 @@ public class TestSuiteInfraNamedWindow extends TestCase {
         session = null;
     }
 
-    public void ttestInfraNamedWindowConsumer() {
+    public void testInfraNamedWindowConsumer() {
         RegressionRunner.run(session, InfraNamedWindowConsumer.executions());
     }
 
-    public void ttestInfraNamedWindowOnDelete() {
+    public void testInfraNamedWindowOnDelete() {
         RegressionRunner.run(session, InfraNamedWindowOnDelete.executions());
     }
 
-    public void ttestInfraNamedWindowViews() {
+    public void testInfraNamedWindowViews() {
         RegressionRunner.run(session, InfraNamedWindowViews.executions());
     }
 
-    public void ttestInfraNamedWindowJoin() {
+    public void testInfraNamedWindowJoin() {
         RegressionRunner.run(session, InfraNamedWindowJoin.executions());
     }
 
-    public void ttestInfraNamedWindowTypes() {
+    public void testInfraNamedWindowTypes() {
         RegressionRunner.run(session, InfraNamedWindowTypes.executions());
     }
 
-    public void ttestInfraNamedWindowOM() {
+    public void testInfraNamedWindowOM() {
         RegressionRunner.run(session, InfraNamedWindowOM.executions());
     }
 
-    public void ttestInfraNamedWindowOnSelect() {
+    public void testInfraNamedWindowOnSelect() {
         RegressionRunner.run(session, InfraNamedWindowOnSelect.executions());
     }
 
-    public void ttestInfraNamedWindowSubquery() {
+    public void testInfraNamedWindowSubquery() {
         RegressionRunner.run(session, InfraNamedWindowSubquery.executions());
     }
 
-    public void ttestInfraNamedWindowOutputrate() {
+    public void testInfraNamedWindowOutputrate() {
         RegressionRunner.run(session, new InfraNamedWindowOutputrate());
     }
 
-    public void ttestInfraNamedWindowRemoveStream() {
+    public void testInfraNamedWindowRemoveStream() {
         RegressionRunner.run(session, new InfraNamedWindowRemoveStream());
     }
 
-    public void ttestInfraNamedWindowProcessingOrder() {
+    public void testInfraNamedWindowProcessingOrder() {
         RegressionRunner.run(session, InfraNamedWindowProcessingOrder.executions());
     }
 
-    public void ttestInfraNamedWindowOnUpdate() {
+    public void testInfraNamedWindowOnUpdate() {
         RegressionRunner.run(session, InfraNamedWindowOnUpdate.executions());
     }
 
-    public void ttestInfraNamedWindowOnMerge() {
+    public void testInfraNamedWindowOnMerge() {
         RegressionRunner.run(session, InfraNamedWindowOnMerge.executions());
     }
 
@@ -100,15 +100,15 @@ public class TestSuiteInfraNamedWindow extends TestCase {
         RegressionRunner.run(session, InfraNamedWindowInsertFrom.executions());
     }
 
-    public void ttestInfraNamedWindowContainedEvent() {
+    public void testInfraNamedWindowContainedEvent() {
         RegressionRunner.run(session, new InfraNamedWindowContainedEvent());
     }
 
-    public void ttestInfraNamedWindowIndex() {
+    public void testInfraNamedWindowIndex() {
         RegressionRunner.run(session, new InfraNamedWindowIndex());
     }
 
-    public void ttestInfraNamedWindowLateStartIndex() {
+    public void testInfraNamedWindowLateStartIndex() {
         RegressionRunner.run(session, new InfraNamedWindowLateStartIndex());
     }
 
